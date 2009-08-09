@@ -9,9 +9,9 @@ endif
 
 set iskeyword+=-
 
-syn match grobotsComment   "^;.*$"
-syn match grobotsReaderTag "^#\w\(-\?\w\)*"
-syn match grobotsLabel     "^\w\(-\?\w\)*:"
+syn match grobotsComment   ";.*$"
+syn match grobotsReaderTag "#\w\(-\?\w\)*"
+syn match grobotsLabel     "\w\(-\?\w\)*:"
 syn match grobotsWriteVar  "\w\(-\?\w\)*!"
 syn match grobotsReferenceLabel "\w\(-\?\w\)*[&^]"
 syn match grobotsConditional "\<\(ife[cg]\|n\?ifr\|c\?else\|then\|n\?if[gc]\?\)\>"
