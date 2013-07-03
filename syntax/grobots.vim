@@ -33,8 +33,8 @@ highlight link grobotsConditional Conditional
 highlight link grobotsRepeat Repeat
 highlight link grobotsDirective Statement
 highlight link grobotsNoop Constant
-highlight link grobotsHwInstruction Delimiter
-highlight link grobotsHardware Delimiter
+highlight link grobotsHwInstruction Identifier
+highlight link grobotsHardware Identifier
 highlight link grobotsNumber Number
 highlight link grobotsFloat Float
 highlight link grobotsLogic Statement
